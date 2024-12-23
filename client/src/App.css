@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family:'Lato', sans-serif;
+  color: rgb(12, 12, 12);
+  background: rgb(237, 237, 237);
+ }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: auto;
+  background: rgb(252, 252, 252);
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow:  0px 8px 32px 0px rgba(82, 82, 82, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-with-icon i {
+  position: absolute;
+  top: 21px;
+  left: 15px;
+  transform: translateY(-42%);
+  color: #6c757d;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.input-with-icon i:hover,.input-with-icon i:focus-within .form-control{
+  color: #5f23f5;
+}
+
+.form-control {
+  width: 100%;
+  height: 45px;
+  background: white;
+  padding-left: 40px; /* Add space for the icon */
+  border: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: inset 0px 1px 9px 0px rgb(119, 117, 117);
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  
+}
+
+
+.form-control:focus ,.form-control:hover~i {
+  outline: none;
+  box-shadow: 0 0 6px #181818;
+}
+ 
+#check {
+  padding: 7px 0 10px 30px;
+}
+
+#check input{
+  box-shadow: inset 0px 1px 3px 0px rgb(119, 117, 117);
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  /* padding: 10px; */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'noto' ;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  /* background: linear-gradient(deg, rgb(26, 26, 237), #7292f8); */
+  box-shadow: inset 1px -20px 60px rgb(3, 3, 240);
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+}
+
+.button:hover {
+
+  background: linear-gradient(45deg, #5f23f5, #5a2ac2); /* Reverse gradient on hover */
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px rgba(20, 20, 20, 0.3); 
+}
+
+ a{
+  text-decoration: none;
+  padding-left: 20px;
+  color:hsl(216, 67%, 44%);
+  font-weight:bold;
+ }
+ .media-icon{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  
+ 
+ }
+ h1,h3{
+  text-align: center;
+  padding: 20px;
+  font-family:'Lato', sans-serif;
+  color: rgb(13, 73, 226) ;
+  font-size: 30px; 
+  font-weight: bold;
+  text-shadow: 0 -1px 0px rgba(0,0,0,0.8);
+  /* font-family: 'Lato', Calibri, Arial, sans-serif; */
+  font-family: 'Palatino';
+
+ }
+
+p{
+  padding: 10px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.span{
+  margin: 10px 10px;
+}
+
+.link a{
+  color: black;
+  font-weight: normal;
+}
